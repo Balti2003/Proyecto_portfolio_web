@@ -11,8 +11,10 @@ function App() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-    if (isTouchDevice) return; // Si es celular, no hacemos nada
+    const isMobile = window.matchMedia("(max-width: 768px)").matches || 
+                    'ontouchstart' in window;
+    
+    if (isMobile) return; 
 
     const handleMouseMove = (e) => {
       setMousePos({ x: e.clientX, y: e.clientY });

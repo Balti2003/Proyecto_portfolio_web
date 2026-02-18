@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 const Hero = () => {
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center pt-20 overflow-hidden">
-      <div className="absolute top-1/4 -left-20 w-72 h-72 bg-accent-blue/20 rounded-full blur-[120px] animate-pulse-slow"></div>
+      <div className="absolute top-1/4 -left-20 w-72 h-72 bg-accent-blue/10 rounded-full blur-[60px] md:blur-[120px] will-change-transform pointer-events-none"></div>
       <div className="absolute bottom-1/4 -right-20 w-72 h-72 bg-accent-purple/20 rounded-full blur-[120px] animate-pulse-slow"></div>
 
       <div className="container mx-auto px-6 relative z-10 text-center">
