@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 const technologies = [
   { name: "Python", color: "hover:text-blue-500" },
-  { name: "Git", color: "hover:text-red-500" },
+  { name: "Git & GitHub", color: "hover:text-red-500" },
   { name: "Node.Js", color: "hover:text-green-500" },
   { name: "Express", color: "hover:text-orange-500" },
   { name: "SQL", color: "hover:text-white-500" },
@@ -15,7 +15,7 @@ const technologies = [
   { name: "TypeScript", color: "hover:text-purple-500" },
   { name: "Wordpress", color: "hover:text-white" },
   { name: "React", color: "hover:text-accent-blue" },
-  { name: "Angular", color: "hover:text-green-500" },
+  { name: "Angular", color: "hover:text-yellow-500" },
 ];
 
 const Stack = () => {

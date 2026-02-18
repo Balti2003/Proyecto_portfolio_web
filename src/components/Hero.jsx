@@ -20,7 +20,7 @@ const Hero = () => {
           Soy <span className="text-white">Baltasar</span><br />
           <span className="bg-gradient-to-r from-accent-blue via-accent-purple to-blue-400 bg-clip-text text-transparent">
             <Typewriter
-              words={['Full Stack Developer', 'Ingeniero en Sistemas', 'Software Builder']}
+              words={['Full Stack Developer', 'Systems Engineer', 'Software Builder']}
               loop={0}
               cursor
               cursorStyle='_'

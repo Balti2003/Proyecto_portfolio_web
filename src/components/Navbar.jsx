@@ -7,7 +7,7 @@ const Navbar = () => {
   const menuLinks = [
     { name: "Inicio", href: "#hero" },
     { name: "Sobre Mí", href: "#about" },
-    { name: "Stack", href: "#stack" },
+    { name: "Tecnologías", href: "#stack" },
     { name: "Proyectos", href: "#proyectos" },
     { name: "Contacto", href: "#contacto" },
   ];
