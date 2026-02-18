@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #0b0b0d;
+  --color-dark-gray: #1a1a1e;
+  --color-accent-blue: #3b82f6;
+  --color-accent-purple: #8b5cf6;
+  
+  --animate-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+:root {
+  background-color: var(--color-dark-bg);
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
