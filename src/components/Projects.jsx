@@ -86,7 +86,7 @@ const Projects = () => {
       <div className="container mx-auto px-6 text-center md:text-left">
         <h3 className="text-gray-500 font-mono text-sm mb-4 tracking-[0.2em]">03. RECENT_WORKS</h3>
         <h2 className="text-4xl font-bold mb-16 text-white">
-          Proyectos <span className="text-accent-blue">Destacados</span>
+          Proyectos <span className="animate-shimmer">Destacados</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

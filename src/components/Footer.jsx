@@ -3,8 +3,7 @@ const Footer = () => {
     <footer className="py-12 border-t border-white/5 bg-dark-bg">
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="font-mono text-sm font-bold">
-          <span className="text-accent-blue">balti</span>
-          <span className="text-accent-purple">.dev</span>
+          <span className="animate-shimmer">balti.dev</span>
         </div>
         
         <p className="text-gray-600 text-xs font-mono uppercase tracking-[0.2em]">

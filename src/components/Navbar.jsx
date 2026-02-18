@@ -17,8 +17,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <div className="text-xl font-mono font-bold">
-          <span className="text-accent-blue">balti</span>
-          <span className="text-accent-purple">.dev</span>
+          <span className="animate-shimmer">balti.dev</span>
         </div>
 
         {/* Desktop Links */}
@@ -68,7 +67,6 @@ const Navbar = () => {
                 </motion.a>
               ))}
               
-              {/* Decoración sutil en lugar del botón */}
               <div className="mt-4 pt-6 border-t border-white/5">
                 <p className="text-gray-600 text-xs font-mono uppercase tracking-widest">
                   &gt; balti.dev

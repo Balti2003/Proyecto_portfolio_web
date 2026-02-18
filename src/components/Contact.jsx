@@ -39,7 +39,7 @@ const Contact = () => {
         <Reveal>
           <h3 className="text-gray-500 font-mono text-sm mb-4 tracking-[0.2em]">04. CONTACT_INFO</h3>
           <h2 className="text-4xl font-bold mb-16">
-            Hablemos de <span className="text-accent-blue">Sistemas</span>
+            Hablemos de <span className="animate-shimmer">Sistemas</span>
           </h2>
         </Reveal>
 

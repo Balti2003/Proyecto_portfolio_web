@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
 @theme {
+  /* Colores personalizados */
   --color-dark-bg: #0b0b0d;
   --color-dark-gray: #1a1a1e;
   --color-accent-blue: #3b82f6;
@@ -13,4 +14,26 @@
   background-color: var(--color-dark-bg);
   color: white;
   font-family: 'Inter', sans-serif;
+}
+
+/* Efecto Shimmer personalizado */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(
+    90deg, 
+    #3b82f6 0%,   /* Azul */
+    #8b5cf6 25%,  /* Violeta */
+    #ffffff 50%,  /* Brillo blanco (el "reflejo") */
+    #8b5cf6 75%,  /* Violeta */
+    #3b82f6 100%  /* Azul */
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: shimmer 4s linear infinite;
 }

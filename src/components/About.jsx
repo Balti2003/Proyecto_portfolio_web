@@ -14,7 +14,7 @@ const About = () => {
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-accent-blue to-accent-purple rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
               <div className="relative bg-dark-gray p-8 rounded-2xl border border-white/10">
-                <h2 className="text-3xl font-bold mb-6 italic">Formación <span className="text-accent-blue">Académica</span></h2>
+                <h2 className="text-3xl font-bold mb-6 italic">Formación <span className="animate-shimmer">Académica</span></h2>
                 <p className="text-gray-400 leading-relaxed mb-4">
                   Actualmente curso la carrera de <strong>Ingeniería en Sistemas</strong>. Esta formación me permite entender la tecnología desde su base estructural, enfocándome en la arquitectura de software, redes y la optimización de procesos complejos.
                 </p>
@@ -28,7 +28,7 @@ const About = () => {
           {/* Columna 2: Especialización Full Stack */}
           <Reveal>
             <div className="space-y-6">
-              <h2 className="text-3xl font-bold">Especialización <span className="text-accent-purple">Full Stack</span></h2>
+              <h2 className="text-3xl font-bold">Especialización <span className="animate-shimmer">Full Stack</span></h2>
               <p className="text-gray-400 leading-relaxed">
                 Complemento mi carrera universitaria con una formación intensiva en <strong>ConquerBlocks</strong>, donde estoy dominando el ecosistema moderno de desarrollo:
               </p>

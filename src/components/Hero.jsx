@@ -37,7 +37,7 @@ const Hero = () => {
           transition={{ delay: 0.5 }}
           className="max-w-2xl mx-auto text-gray-400 text-lg md:text-xl mb-10 font-light leading-relaxed"
         >
-          Apasionado por el desarrollo <span className="text-white font-medium">Full Stack</span>. 
+          Apasionado por el desarrollo <span className="animate-shimmer font-medium">Full Stack</span>. 
           Enfocado en transformar lógica compleja en interfaces elegantes.
         </motion.p>
 
