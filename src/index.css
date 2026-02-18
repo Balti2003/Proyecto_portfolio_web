@@ -36,4 +36,5 @@
   background-clip: text;
   color: transparent;
   animation: shimmer 4s linear infinite;
+  will-change: background-position;
 }
