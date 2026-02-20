@@ -37,7 +37,7 @@ const Contact = () => {
     <section id="contacto" className="py-24 relative">
       <div className="container mx-auto px-6">
         <Reveal>
-          <h3 className="text-gray-500 font-mono text-sm mb-4 tracking-[0.2em]">04. CONTACT_INFO</h3>
+          <h3 className="text-gray-500 font-mono text-sm mb-4 tracking-[0.2em]">05. CONTACT_INFO</h3>
           <h2 className="text-4xl font-bold mb-16">
             Hablemos de <span className="animate-shimmer">Sistemas</span>
           </h2>

@@ -23,7 +23,7 @@ const Stack = () => {
     <section id="stack" className="py-24 relative">
       <div className="container mx-auto px-6">
         <Reveal>
-          <h3 className="text-gray-500 font-mono text-sm mb-4 text-center tracking-[0.2em]">02. SKILLS_INDEX</h3>
+          <h3 className="text-gray-500 font-mono text-sm mb-4 text-center tracking-[0.2em]">03. SKILLS_INDEX</h3>
           <h2 className="text-4xl font-bold text-center mb-16">Mi Stack <span className="animate-shimmer">Tecnológico</span></h2>
         </Reveal>
         

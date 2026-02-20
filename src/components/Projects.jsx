@@ -84,7 +84,7 @@ const Projects = () => {
   return (
     <section id="proyectos" className="py-24 bg-white/[0.02]">
       <div className="container mx-auto px-6 text-center md:text-left">
-        <h3 className="text-gray-500 font-mono text-sm mb-4 tracking-[0.2em]">03. RECENT_WORKS</h3>
+        <h3 className="text-gray-500 font-mono text-sm mb-4 tracking-[0.2em]">04. RECENT_WORKS</h3>
         <h2 className="text-4xl font-bold mb-16 text-white">
           Proyectos <span className="animate-shimmer">Destacados</span>
         </h2>
