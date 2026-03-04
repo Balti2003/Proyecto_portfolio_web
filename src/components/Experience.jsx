@@ -9,6 +9,12 @@ const education = [
         description: "Formación técnica en programación y fundamentos de la informática. Proyectos prácticos en diversos lenguajes y tecnologías."
     },
     {
+        title: "Analista en Sistemas de Información",
+        institution: "Universidad Tecnológica Nacional - Facultad Regional Villa María",
+        date: "2023 - 2025",
+        description: "Formación especializada en transformar problemas de negocio en soluciones técnicas escalables mediante un pensamiento sistémico y una gestión avanzada de infraestructuras de datos."
+    },
+    {
         title: "Ingeniería en Sistemas de Información",
         institution: "Universidad Tecnológica Nacional - Facultad Regional Villa María",
         date: "2023 - 202x (Presente)",
@@ -28,7 +34,9 @@ const softSkills = [
   "Metodologías Ágiles",
   "Trabajo en Equipo",
   "Adaptabilidad",
-  "Comunicación Técnica"
+  "Comunicación Técnica",
+  "Gestion del tiempo",
+  "Empatía",
 ];
 
 const Experience = () => {

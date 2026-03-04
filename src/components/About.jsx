@@ -16,7 +16,7 @@ const About = () => {
               <div className="relative bg-dark-gray p-8 rounded-2xl border border-white/10">
                 <h2 className="text-3xl font-bold mb-6 italic">Formación <span className="animate-shimmer">Académica</span></h2>
                 <p className="text-gray-400 leading-relaxed mb-4">
-                  Actualmente curso la carrera de <strong>Ingeniería en Sistemas</strong>. Esta formación me permite entender la tecnología desde su base estructural, enfocándome en la arquitectura de software, redes y la optimización de procesos complejos.
+                  Actualmente soy <strong>Analista en Sistemas</strong> y curso la carrera de <strong>Ingeniería en Sistemas</strong>. Esta formación me permite entender la tecnología desde su base estructural, enfocándome en la arquitectura de software, redes y la optimización de procesos complejos.
                 </p>
                 <p className="text-gray-400 leading-relaxed">
                   Mi enfoque está en aplicar el pensamiento sistémico para resolver problemas del mundo real mediante soluciones digitales eficientes.
