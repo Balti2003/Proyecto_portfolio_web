@@ -45,6 +45,19 @@ const Hero = () => {
           <a href="#proyectos" className="px-8 py-4 bg-white text-black font-bold rounded-xl hover:bg-accent-blue hover:text-white transition-all duration-300 transform hover:-translate-y-1 shadow-lg shadow-white/5">
             Ver Proyectos
           </a>
+
+          <a 
+            href="/CV-Baltasar-Lomello.pdf"
+            download="CV-Baltasar-Lomello.pdf"
+            className="px-8 py-3 bg-transparent border border-white/20 rounded-xl font-bold hover:border-accent-purple hover:text-accent-purple transition-all duration-300 flex items-center justify-center gap-2"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            Descargar CV
+          </a>
         </div>
       </div>
     </section>
